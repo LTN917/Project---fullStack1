@@ -1,0 +1,9 @@
+.taiwan {
+  h3 {
+    @include header3;
+  }
+
+  p {
+    @include para;
+  }
+}

@@ -1,0 +1,193 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: DFkai-sb, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: normal;
+}
+
+/* header */
+header nav {
+  background-color: rgb(0, 0, 0);
+}
+header nav ul {
+  display: flex;
+  list-style-type: none;
+}
+header nav ul li {
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+}
+header nav ul li a {
+  color: aliceblue;
+  text-decoration: none;
+}
+header nav ul li a:hover {
+  color: yellow;
+}
+
+.above {
+  background-image: url(../images/background.png);
+  padding: 1rem;
+}
+.above h1 {
+  font-size: 2.5rem;
+}
+.above h3 {
+  font-size: 1rem;
+}
+
+.active {
+  color: yellow;
+}
+
+.home {
+  display: flex;
+  flex-wrap: wrap;
+}
+.home section {
+  padding: 0.5rem 0.5rem;
+}
+
+.left {
+  flex: 1 1 300px;
+}
+.left img {
+  width: 80%;
+}
+.left table {
+  padding: 1rem;
+}
+
+.right {
+  flex: 4 1 500px;
+}
+.right h3 {
+  padding: 0.25rem;
+  font-size: 2rem;
+  color: green;
+}
+.right p {
+  padding: 0.5rem 0rem;
+}
+
+/* korea */
+.korea {
+  display: block;
+}
+
+.bottom {
+  padding-left: 1rem;
+}
+.bottom h3 {
+  padding: 0.25rem;
+  font-size: 2rem;
+  color: green;
+}
+
+.player div {
+  margin: 1rem 1rem;
+  border: 0.3rem solid rgb(212, 166, 166);
+}
+.player div h4 {
+  font-size: 1.5rem;
+  color: rgb(44, 122, 38);
+}
+.player div p {
+  font-size: 1rem;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+.intro {
+  color: rgb(161, 74, 74);
+}
+
+/* japan */
+.japan {
+  padding: 1rem;
+}
+.japan p {
+  font-size: 1rem;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+.japan section {
+  padding: 1rem;
+}
+
+#piechart {
+  padding-top: 1rem;
+  width: 300px;
+  height: 300px;
+}
+
+.japan-top {
+  display: flex;
+  flex-wrap: wrap;
+}
+.japan-top div.japan-info {
+  flex: 3 1 600px;
+  padding: 1.25rem;
+}
+.japan-top div.image {
+  flex: 1 1 300px;
+}
+.japan-top div.image img {
+  width: 50vh;
+}
+
+.japan-bottom {
+  display: flex;
+  flex-wrap: wrap;
+}
+.japan-bottom h3 {
+  padding: 0.25rem;
+  font-size: 2rem;
+  color: green;
+}
+
+.japan-left {
+  flex: 3 1 600px;
+}
+
+.japan-right {
+  flex: 1 1 300px;
+}
+
+/* china */
+.china h3 {
+  padding: 0.25rem;
+  font-size: 2rem;
+  color: green;
+}
+.china p {
+  font-size: 1rem;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+.china table {
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+.china table th {
+  background-color: rgb(203, 102, 102);
+}
+.china table td {
+  border: 0.1rem solid rgb(159, 86, 44);
+  padding: 1rem;
+}
+
+/* taiwan */
+.taiwan h3 {
+  padding: 0.25rem;
+  font-size: 2rem;
+  color: green;
+}
+.taiwan p {
+  font-size: 1rem;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+}/*# sourceMappingURL=style.css.map */

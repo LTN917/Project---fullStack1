@@ -1,0 +1,22 @@
+.china {
+  h3 {
+    @include header3;
+  }
+
+  p {
+    @include para;
+  }
+
+  table {
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+
+    th {
+      background-color: rgb(203, 102, 102);
+    }
+
+    td {
+      border: 0.1rem solid rgb(159, 86, 44);
+      padding: 1rem;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.korea {
+  display: block;
+}
+
+.bottom {
+  padding-left: 1rem;
+  h3 {
+    @include header3;
+  }
+}
+
+.player {
+  div {
+    margin: 1rem 1rem;
+    border: 0.3rem solid rgb(212, 166, 166);
+    h4 {
+      font-size: 1.5rem;
+      color: rgb(44, 122, 38);
+    }
+    p {
+      @include para;
+    }
+  }
+}
+
+.intro {
+  color: rgb(161, 74, 74);
+}

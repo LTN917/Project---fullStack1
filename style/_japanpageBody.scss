@@ -1,0 +1,49 @@
+.japan {
+  padding: 1rem;
+
+  p {
+    @include para;
+  }
+
+  section {
+    padding: 1rem;
+  }
+}
+
+#piechart {
+  padding-top: 1rem;
+  width: 300px;
+  height: 300px;
+}
+
+.japan-top {
+  @include flexbox;
+
+  div.japan-info {
+    @include flexitem(3, 1, 600px);
+    padding: 1.25rem;
+  }
+
+  div.image {
+    @include flexitem(1, 1, 300px);
+
+    img {
+      width: 50vh;
+    }
+  }
+}
+
+.japan-bottom {
+  @include flexbox;
+  h3 {
+    @include header3;
+  }
+}
+
+.japan-left {
+  @include flexitem(3, 1, 600px);
+}
+
+.japan-right {
+  @include flexitem(1, 1, 300px);
+}

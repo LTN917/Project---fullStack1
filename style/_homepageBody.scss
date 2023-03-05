@@ -1,0 +1,30 @@
+.home {
+  @include flexbox;
+
+  section {
+    padding: 0.5rem 0.5rem;
+  }
+}
+
+.left {
+  @include flexitem(1, 1, 300px);
+  img {
+    width: 80%;
+  }
+
+  table {
+    padding: 1rem;
+  }
+}
+
+.right {
+  @include flexitem(4, 1, 500px);
+
+  h3 {
+    @include header3;
+  }
+
+  p {
+    padding: 0.5rem 0rem;
+  }
+}

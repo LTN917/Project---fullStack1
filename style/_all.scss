@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: DFkai-sb, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: normal;
+}
+
+@mixin flexbox {
+  display: flex;
+  flex-wrap: wrap; // 可以隨著版面大小做配置
+}
+
+@mixin flexitem($w, $h, $pixel) {
+  flex: $w $h $pixel;
+}
+
+@mixin header3 {
+  padding: 0.25rem;
+  font-size: 2rem;
+  color: green;
+}
+
+@mixin para {
+  font-size: 1rem;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
